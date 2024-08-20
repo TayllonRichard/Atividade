@@ -1,0 +1,5 @@
+restart_syscall(<... resuming interrupted read ...>) = 1
+futex(0x7f3324abde58, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Recurso temporariamente indisponível)
+read(28, "M", 2048)                     = 1
+futex(0x7f3324abde58, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=28, events=POLLIN|POLLPRI}, {fd=146, events=POLLIN|POLLPRI}, {fd=61, events=POLLIN|POLLPRI}], 3, -1 <detached ...>
